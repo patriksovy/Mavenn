@@ -1,17 +1,21 @@
 package sk.itsovy.kincel.company;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import sk.itsovy.kincel.company.database.Database;
+import sk.itsovy.kincel.company.entity.User;
+import sk.itsovy.kincel.company.enumeratori.Gender;
+import sk.itsovy.kincel.company.util.Util;
+import java.util.List;
 
 /**
  * Hello world!
  *
  */
-public class App 
+@SpringBootApplication
+public class App
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        Database db=new Database();
-        db.getConnection();
+    public static void main(String[] args) {
+        SpringApplication.run(App.class,args);
     }
 }
