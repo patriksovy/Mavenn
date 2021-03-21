@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.blbost{
+    margin-top: 20%;
+}
+
+.blbost1{
+    margin: auto;
+}
+
+.TextColor{
+    color: red;
+}
+
+.inputik{
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: grey;
+}
